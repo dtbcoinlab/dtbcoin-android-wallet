@@ -45,22 +45,22 @@ public final class Constants
 		public static final String WALLET_FILENAME_PROTOBUF_OLD = "wallet-protobuf";
 	    
 		/** Filename of the wallet. */
-		public static final String WALLET_FILENAME_PROTOBUF = "peercoin-wallet-protobuf";
+		public static final String WALLET_FILENAME_PROTOBUF = "dtbcoin-wallet-protobuf";
 
 		/** Filename of the automatic key backup (old format, can only be read). */
-		public static final String WALLET_KEY_BACKUP_BASE58 = "peercoin-key-backup-base58";
+		public static final String WALLET_KEY_BACKUP_BASE58 = "dtbcoin-key-backup-base58";
 
 		/** Filename of the automatic wallet backup. */
-		public static final String WALLET_KEY_BACKUP_PROTOBUF = "peercoin-key-backup-protobuf";
+		public static final String WALLET_KEY_BACKUP_PROTOBUF = "dtbcoin-key-backup-protobuf";
 
 		/** Manual backups go here. */
 		public static final File EXTERNAL_WALLET_BACKUP_DIR = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
 
 		/** Filename of the manual key backup (old format, can only be read). */
-		public static final String EXTERNAL_WALLET_KEY_BACKUP = "peercoin-wallet-keys";
+		public static final String EXTERNAL_WALLET_KEY_BACKUP = "dtbcoin-wallet-keys";
 
 		/** Filename of the manual wallet backup. */
-		public static final String EXTERNAL_WALLET_BACKUP = "peercoin-wallet-backup";
+		public static final String EXTERNAL_WALLET_BACKUP = "dtbcoin-wallet-backup";
 
 		/** Filename of the block store for storing the chain. */
 		public static final String BLOCKCHAIN_FILENAME = "blockchain";
@@ -81,22 +81,22 @@ public final class Constants
 	public static final String MIMETYPE_TRANSACTION = "application/x-ppctx";
 
 	/** MIME type used for transmitting wallet backups. */
-	public static final String MIMETYPE_WALLET_BACKUP = "application/x-peercoin-wallet-backup";
+	public static final String MIMETYPE_WALLET_BACKUP = "application/x-dtbcoin-wallet-backup";
 
 	/** Number of confirmations until a transaction is fully confirmed. */
 	public static final int MAX_NUM_CONFIRMATIONS = 7;
 
 	/** User-agent to use for network access. */
-	public static final String USER_AGENT = "Peercoin Wallet";
+	public static final String USER_AGENT = "Dtbcoin Wallet";
 
 	/** Default currency to use if all default mechanisms fail. */
-	public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
+	public static final String DEFAULT_EXCHANGE_CURRENCY = "CNY";
 
 	/** Donation address for tip/donate action. */
-	public static final String DONATION_ADDRESS = "PNY8FPHRY8NM8VG77TXZ4R3WY7QJ25ATG6";
+	public static final String DONATION_ADDRESS = "8NfJLRdJmK5X5zLBXdDBMybBQwRJdS8ood";
 
 	/** Recipient e-mail address for reports. */
-	public static final String REPORT_EMAIL = "matthewmitchell@thelibertyportal.com";
+	public static final String REPORT_EMAIL = "support@dtbcoin.com";
 
 	/** Subject line for manually reported issues. */
 	public static final String REPORT_SUBJECT_ISSUE = "Reported issue";

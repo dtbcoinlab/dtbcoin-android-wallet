@@ -2,11 +2,11 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>PPC, 8位數</item>
-		<item>PPC, 6位數</item>
-		<item>PPC, 4位數</item>
-		<item>mPPC, 2位數</item>
-		<item>µPPC, 0位數</item>
+		<item>DTB, 8位數</item>
+		<item>DTB, 6位數</item>
+		<item>DTB, 4位數</item>
+		<item>mDTB, 2位數</item>
+		<item>µDTB, 0位數</item>
 	</string-array>
 
 </resources>

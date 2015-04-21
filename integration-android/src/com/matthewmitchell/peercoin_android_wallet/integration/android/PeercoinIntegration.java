@@ -229,7 +229,7 @@ public final class PeercoinIntegration
 
 	private static Intent makePeercoinUriIntent(final String address, final Long amount)
 	{
-		final StringBuilder uri = new StringBuilder("ppcoin:");
+		final StringBuilder uri = new StringBuilder("dtbcoin:");
 		if (address != null)
 			uri.append(address);
 		if (amount != null)
@@ -269,10 +269,10 @@ public final class PeercoinIntegration
 
 	private static void redirectToDownload(final Context context)
 	{
-		Toast.makeText(context, "No Peercoin application found.\nPlease install Peercoin Wallet.", Toast.LENGTH_LONG).show();
+		Toast.makeText(context, "No dtbcoin application found.\nPlease install Dtbcoin Wallet.", Toast.LENGTH_LONG).show();
 
 		final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.matthewmitchell.peercoin_android_wallet"));
-		final Intent binaryIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/MatthewLM/peercoin-android-wallet"));
+		final Intent binaryIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/dtbcoin/peercoin-android-wallet"));
 
 		final PackageManager pm = context.getPackageManager();
 		if (pm.resolveActivity(marketIntent, 0) != null)

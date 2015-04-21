@@ -92,7 +92,7 @@ public class FormatsTest
 		final Matcher code = Formats.PATTERN_MONETARY_SPANNABLE.matcher("PPC 0.00");
 		assertTrue(code.find());
 		assertNotNull(code.group(Formats.PATTERN_GROUP_PREFIX));
-		assertEquals("PPC", code.group(Formats.PATTERN_GROUP_PREFIX));
+		assertEquals("DTB", code.group(Formats.PATTERN_GROUP_PREFIX));
 		assertNotNull(code.group(Formats.PATTERN_GROUP_SIGNIFICANT));
 		assertEquals("0.00", code.group(Formats.PATTERN_GROUP_SIGNIFICANT));
 		assertNull(code.group(Formats.PATTERN_GROUP_INSIGNIFICANT));
